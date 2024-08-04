@@ -20,8 +20,8 @@ Description=Start mjpeg-stream
 After=network.target
 
 [Service]
-ExecStart=/home/pi/mjpg-streamer/mjpg-streamer-experimental/start.sh
-WorkingDirectory=/home/pi/mjpg-streamer/mjpg-streamer-experimental
+ExecStart=/home/pi/mjpg-streamer/mjpg-streamer/mjpg-streamer-experimental/start.sh
+WorkingDirectory=/home/pi/mjpg-streamer/mjpg-streamer/mjpg-streamer-experimental
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
