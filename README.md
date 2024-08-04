@@ -34,3 +34,10 @@ This script installs MJPG Streamer and sets up the systemd service using static 
    ```
    ```bash
    ./dynamic_setup
+3. remove
+    ```bash
+   chmod +x ./remove.sh
+   
+   ```
+   ```bash
+   ./remove.sh
